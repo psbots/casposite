@@ -2,7 +2,6 @@
 <body>
 ​
 <?php
-echo $_POST['email'];
 if (!empty($_POST)){
 ​
 $servername = "127.5.71.130";
@@ -18,7 +17,7 @@ die("Connection failed: ". $conn->connect_error);
 echo "error connecting db";
 }
 ​
-$sql = "INSERT INTO email_id (email) VALUES ('".$_POST["email_name"]."')";
+$sql = "INSERT INTO email_id (email) VALUES ('".$_POST["email"]."')";
 ​
 ​
 if ($conn->query($sql) === TRUE) {
