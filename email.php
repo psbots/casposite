@@ -5,7 +5,7 @@
 echo $_POST['email'];
 if (!empty($_POST)){
 ​
-$servername = "127.5.71.130:24595";
+$servername = "127.5.71.130";
 $username = "adminuECylHY";
 $password = "FuJ8MUiwGikn";
 $dbname = "email";
