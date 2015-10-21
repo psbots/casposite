@@ -28,8 +28,8 @@
             <div class="row">
                 <div class="col-md-10 col-md-push-1">
                     <div class="hero-content text-center">
-                        <h1>Cooking Made Simple.</h1>
-                        <p class="intro">World's first learning cooktop.</p>
+                        <h1>Caspo Enterprise</h1>
+                        <p class="intro">Coming Soon. </p>
                         
                         <div class="preorder-intro">
                             <a href="#" class="btn btn-fill btn-large btn-margin-right pre-order-btn-intro">Pre-Order now</a>

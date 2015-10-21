@@ -10,7 +10,7 @@
 
 <body id="single-while-bg no-overflow">
 
-    <section class="hero main-landing-page--img">
+    <section class="hero gas-landing-page--img">
         <section class="navigation">
   <?php
 
