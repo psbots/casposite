@@ -1,18 +1,29 @@
 <?php
-$connection = mysql_connect("50.112.134.215", "root", "isuck"); 
-$db = mysql_select_db("email", $connection); 
-if(isset($_GET['submit'])){ 
+echo $_POST['email'];
+if (!empty($_POST)){
 
-$email = $_GET['email'];
+$servername = "127.5.71.130:24595";
+$username = "adminuECylHY";
+$password = "FuJ8MUiwGikn";
+$dbname = "email";
 
-if($email !=''){
-//Insert Query of SQL
-$query = mysql_query("insert into email(email) values ('$email')");
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+die("Connection failed: ". $conn->connect_error);
+echo "error connecting db";
+}
 
+$sql = "INSERT INTO email_id (email) VALUES ('".$_POST["email_name"]."')";
+
+
+if ($conn->query($sql) === TRUE) {
+echo '"New record created successfully"';
+} else {
+echo '"Error:"';
 }
-else{
-echo "<p>Insertion Failed <br/></p>";
+
+$conn->close();
 }
-}
-mysql_close($connection); // Closing Connection with Server
 ?>
