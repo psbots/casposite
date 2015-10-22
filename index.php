@@ -90,7 +90,7 @@
         ?>
         <script>
         document.getElementById("mc-embedded-subscribe").disabled = true;
-        $("input[type=email]").on('oninput',function(){
+        $('#mce-EMAIL').on('onkeyup',function(){
           if(document.getElementById("mce-EMAIL").checkValidity()) {
             document.getElementById("mc-embedded-subscribe").disabled = false;
           }
