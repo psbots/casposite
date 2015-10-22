@@ -89,6 +89,13 @@
 
         ?>
         <script>
+        document.getElementById("mc-embedded-subscribe").disabled = true;
+        $("input[type=email]").on('oninput',function(){
+          if(document.getElementById("mce-EMAIL").checkValidity()) {
+            document.getElementById("mc-embedded-subscribe").disabled = false;
+          }
+        });
+
         $('#mc-embedded-subscribe').on('click',function(){
           var emailId = $('#mce-EMAIL').val();
           $.post('http://caspoenergy.elasticbeanstalk.com/submitEmail', {email:emailId}).
