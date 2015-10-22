@@ -36,19 +36,8 @@
                         </div>
                             <!-- Begin MailChimp Signup Form -->
                         <div id="mc_embed_signup">
-                          <script>
-                          function submitForm(oFormElement)
-                          {
-                            var xhr = new XMLHttpRequest();
-                            xhr.onload = function(){ alert (xhr.responseText); }
-                            xhr.open (oFormElement.method, oFormElement.action, true);
-                            new FormData (oFormElement);
-                            console.log(FormData)
-                            xhr.send();
-                            return false;
-                          }
-                          </script>
-                        <form action="http://caspoenergy.elasticbeanstalk.com/submitEmail" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate signup-form  form-input-group sign-up" onsubmit="submitForm(this);>
+
+                        <form id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate signup-form  form-input-group sign-up" >
                             <div id="mc_embed_signup_scroll signup-form">
 
 
@@ -101,6 +90,16 @@
             include('templates/footer_scripts.php');
 
         ?>
+        <script>
+        $('#mc-embedded-subscribe').on('click',function(){
+          var emailId = $('#mce-EMAIL').val();
+          $.post('/submitEmail', {email:emailId}).
+      done(function(data){
+      $('#mc_embed_signup').html('<div class="thankyou" style="color:white">Thanks! We\'ll get back to you soon</div>')
+      });
+      });
 
+
+        </script>
 </body>
 </html>
