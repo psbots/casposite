@@ -89,21 +89,23 @@
 
         ?>
         <script>
-        document.getElementById("mc-embedded-subscribe").disabled = true;
-        $('#mce-EMAIL').on('onkeyup',function(){
-          if(document.getElementById("mce-EMAIL").checkValidity()) {
-            document.getElementById("mc-embedded-subscribe").disabled = false;
-          }
+        $(
+          document.getElementById("mc-embedded-subscribe").disabled = true;
+          $('#mce-EMAIL').on('onkeyup',function(){
+            if(document.getElementById("mce-EMAIL").checkValidity()) {
+              document.getElementById("mc-embedded-subscribe").disabled = false;
+            }
+          });
+
+          $('#mc-embedded-subscribe').on('click',function(){
+            var emailId = $('#mce-EMAIL').val();
+            $.post('http://caspoenergy.elasticbeanstalk.com/submitEmail', {email:emailId}).
+        done(function(data){
+        $('#mc_embed_signup').html('<div class="thankyou" style="color:white">Thanks! We\'ll get back to you soon</div>')
+        });
         });
 
-        $('#mc-embedded-subscribe').on('click',function(){
-          var emailId = $('#mce-EMAIL').val();
-          $.post('http://caspoenergy.elasticbeanstalk.com/submitEmail', {email:emailId}).
-      done(function(data){
-      $('#mc_embed_signup').html('<div class="thankyou" style="color:white">Thanks! We\'ll get back to you soon</div>')
-      });
-      });
-
+      );
 
         </script>
 </body>
