@@ -37,7 +37,6 @@
                             <!-- Begin MailChimp Signup Form -->
                         <div id="mc_embed_signup">
 
-                        <form id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate signup-form  form-input-group sign-up" >
                             <div id="mc_embed_signup_scroll signup-form">
 
 
@@ -53,7 +52,6 @@
                             <div style="position: absolute; left: -5000px;"><input type="text" name="b_a3de5825e5d3f1ac1e10b36a6_df22f19834" tabindex="-1" value=""></div>
 
                             </div>
-                        </form>
                         </div>
 
                         <!--End mc_embed_signup-->
@@ -93,7 +91,7 @@
         <script>
         $('#mc-embedded-subscribe').on('click',function(){
           var emailId = $('#mce-EMAIL').val();
-          $.post('/submitEmail', {email:emailId}).
+          $.post('http://caspoenergy.elasticbeanstalk.com/submitEmail', {email:emailId}).
       done(function(data){
       $('#mc_embed_signup').html('<div class="thankyou" style="color:white">Thanks! We\'ll get back to you soon</div>')
       });
