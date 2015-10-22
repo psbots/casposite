@@ -40,11 +40,11 @@
                             <div id="mc_embed_signup_scroll signup-form">
 
 
-
+                            <form>
                             <input type="email" name="email" class="required email input-regular" placeholder="Enter your email address" id="mce-EMAIL" required pattern="[^ @]+@[^ @]+.[a-z]+">
 
                              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-fill sign-up-btn signup-intro">
-
+                           </form>
                             <div id="mce-responses" class="clears">
                                 <div class="response" id="mce-error-response" style="display:none"></div>
                                 <div class="response" id="mce-success-response" style="display:none"></div>
