@@ -9,7 +9,7 @@
 
 
 <body id="single-while-bg no-overflow">
-
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <section class="hero main-landing-page--img">
         <section class="navigation">
   <?php
@@ -89,23 +89,27 @@
 
         ?>
         <script>
-        $(
-          document.getElementById("mc-embedded-subscribe").disabled = true;
-          $('#mce-EMAIL').on('onkeyup',function(){
-            if(document.getElementById("mce-EMAIL").checkValidity()) {
-              document.getElementById("mc-embedded-subscribe").disabled = false;
+        $(document).ready(function(){
+            // document.getElementById("mc-embedded-subscribe").disabled = true;
+            // $('#mce-EMAIL').on('onkeyup',function(){
+            //   if(document.getElementById("mce-EMAIL").checkValidity()) {
+            //     document.getElementById("mc-embedded-subscribe").disabled = false;
+            //   }
+            // });
+            function validateEmail(email) {
+                var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+                return re.test(email);
             }
+            $('#mc-embedded-subscribe').on('click',function(){
+              var emailId = $('#mce-EMAIL').val();
+              if(validateEmail(emailId)){
+                $.post('http://caspoenergy.elasticbeanstalk.com/submitEmail', {email:emailId}).
+                done(function(data){
+                $('#mc_embed_signup').html('<div class="thankyou" style="color:white">Thanks! We\'ll get back to you soon</div>')
+                });
+              }
           });
-
-          $('#mc-embedded-subscribe').on('click',function(){
-            var emailId = $('#mce-EMAIL').val();
-            $.post('http://caspoenergy.elasticbeanstalk.com/submitEmail', {email:emailId}).
-        done(function(data){
-        $('#mc_embed_signup').html('<div class="thankyou" style="color:white">Thanks! We\'ll get back to you soon</div>')
         });
-        });
-
-      );
 
         </script>
 </body>
