@@ -41,7 +41,7 @@
 
 
 
-                            <input type="email" value="email" name="email" class="required email input-regular" placeholder="Enter your email address" id="mce-EMAIL" required >
+                            <input type="email" name="email" class="required email input-regular" placeholder="Enter your email address" id="mce-EMAIL" required pattern="[^ @]+@[^ @]+.[a-z]+">
 
                              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-fill sign-up-btn signup-intro">
 
