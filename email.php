@@ -1,34 +1,22 @@
-<html>
-<body>
-​
 <?php
-if (!empty($_POST)){
-​
-$servername = "127.5.71.130";
-$username = "adminuECylHY";
-$password = "FuJ8MUiwGikn";
-$dbname = "email";
-​
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-die("Connection failed: ". $conn->connect_error);
-echo "error connecting db";
+$connection = mysql_connect("50.112.134.215", "root", "isuck"); 
+$db = mysql_select_db("email", $connection); 
+if(isset($_GET['email'])){ 
+
+$email = $_GET['email'];
+
+if($email !=''){
+//Insert Query of SQL
+$query = mysql_query("insert into email_id(email) values ('$email')");
+echo = "<p>Sucess</br></p>";
 }
-​
-$sql = "INSERT INTO email_id (email) VALUES ('".$_POST["email"]."')";
-​
-​
-if ($conn->query($sql) === TRUE) {
-echo '"New record created successfully"';
-} else {
-echo '"Error:"';
+else{
+echo "<p>Insertion Failed <br/></p>";
 }
-​
-$conn->close();
 }
+mysql_close($connection); // Closing Connection with Server
+
+header("Location: index.html");
+die();
+
 ?>
-​
-</body>
-</html>
