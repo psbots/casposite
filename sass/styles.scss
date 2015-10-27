@@ -321,7 +321,7 @@ Hero
 
 
 .hero {
-  min-height: 600px;
+  /*min-height: 600px;*/
   
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -340,7 +340,7 @@ Hero
   }
   p.intro {
     color: $txt-light;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 300;
     margin-bottom: 80px;
   }
@@ -367,6 +367,7 @@ Hero
 
     background-size:cover;
     background-repeat:no-repeat;
+    background-position: 0% 40%;
     
 }
 
@@ -431,6 +432,21 @@ Hero
   background-color: #232731;
   z-index: 999;
   width: 100%;
+  
+
+    header {
+
+      padding: 35px 0;
+      
+      .member-actions {
+        top: 26px;
+      }
+
+      .navicon {
+
+        top: 34px;
+      }
+    }
 }
 
 
@@ -453,6 +469,7 @@ header {
     color: $txt-light;
     text-transform: uppercase;
     font-size: $nav-font-size;
+    font-weight: 400;
 
     &.login {
       margin-right: 20px;
@@ -1132,6 +1149,17 @@ To top
   }
   .row {
     position: relative;
+  }
+}
+
+
+.about-main-title {
+  
+  padding-top:10%;
+  h1 {
+  font-family: "Open Sans", sans-serif;
+    font-weight:100;  
+    font-size: 90px
   }
 }
 

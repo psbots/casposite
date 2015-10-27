@@ -344,7 +344,7 @@ Navigation
 Hero
 ========================================================================== */
 .hero {
-  min-height: 600px;
+  /*min-height: 600px;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -359,7 +359,7 @@ Hero
     margin-bottom: 40px; }
   .hero p.intro {
     color: #fff;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 300;
     margin-bottom: 80px; }
   .hero .hero-content {
@@ -373,7 +373,8 @@ Hero
   background-image: -webkit-gradient(top, rgba(98, 135, 181, 0.58), rgba(0, 0, 0, 0.1)), url("../imgs/centerized.jpg");
   background-image: -webkit-linear-gradient(top, rgba(98, 135, 181, 0.58), rgba(0, 0, 0, 0.1)), url("../imgs/centerized.jpg");
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position: 0% 40%; }
 
 .gas-landing-page--img {
   background-image: linear-gradient(to bottom, rgba(98, 135, 181, 0.58), rgba(0, 0, 0, 0.1)), url("../imgs/Final.151.jpg");
@@ -411,6 +412,12 @@ Hero
   background-color: #232731;
   z-index: 999;
   width: 100%; }
+  .fixed-alltime header {
+    padding: 35px 0; }
+    .fixed-alltime header .member-actions {
+      top: 26px; }
+    .fixed-alltime header .navicon {
+      top: 34px; }
 
 .std-fixed {
   position: fixed;
@@ -428,7 +435,8 @@ header {
   header a {
     color: #fff;
     text-transform: uppercase;
-    font-size: 13px; }
+    font-size: 13px;
+    font-weight: 400; }
     header a.login {
       margin-right: 20px; }
   header .logo {
@@ -885,6 +893,13 @@ To top
       line-height: 55px; }
   .to-top .row {
     position: relative; }
+
+.about-main-title {
+  padding-top: 10%; }
+  .about-main-title h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    font-size: 90px; }
 
 /* ==========================================================================
 Footer

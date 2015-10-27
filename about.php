@@ -27,12 +27,12 @@
         </section>
 
 
-                <div class="container">
+        <div class="containaer">
             <div class="row">
-                <div class="col-md-10 col-md-push-1">
-                    <div class="hero-content text-center">
-                        <h1 class="extra-bold-large">We believe</h1>
-                        
+                <div class="col-md-12">
+                    <div class="about-main-title">
+                        <h1 class="">a smart kitchen should be actually smart for instance if there is a gas leakage or an electrical short circuia</h1>
+                
                         
                     </div>
 
@@ -46,12 +46,14 @@
 
             -->
             </div>
+
+        
         </div>
 
     </section>
 
 
-        <section class="no-shadow">
+        <section class="no-shadow features-extra section-padding">
 
             <div class="container full-window-height">
 
@@ -60,7 +62,7 @@
 
                     <div class="col-md-8 col-md-push-2 text-center margin--header no-shadow full-height-center">
 
-                        
+                        <h1>We Believe</h1>
                         <p>a smart kitchen should be actually smart for instance if there is a gas leakage or an electrical short circuit all systems should be shut off and the user should be send an alert  ,interconnection and intelligent functions of a kitchen demands a smart hub and we believe that a device like a cooktop that is present in all kitchen should perform this functions as well .”
 “so to start with we are building a stove top which can learn from your habits and also help you to take care of your family's nutrition  ,which over time can add  more devices as times go by and get better</p>
                         
@@ -80,6 +82,11 @@
 
 
             </div>
+
+        </section>
+
+                <section class="no-shadow">
+
 
         </section>
 

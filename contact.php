@@ -9,7 +9,7 @@
 <body id="single-while-bg">
 
     <section class="hero">
-        <section class="navigation fixed">
+        <section class="navigation fixed fixed-alltime">
      <?php
 
             //menu-elements

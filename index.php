@@ -9,7 +9,7 @@
 
 
 <body id="single-while-bg no-overflow">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
     <section class="hero main-landing-page--img">
         <section class="navigation">
   <?php
@@ -36,15 +36,15 @@
                         </div>
                             <!-- Begin MailChimp Signup Form -->
                         <div id="mc_embed_signup">
-
+                        <form action="email.php" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate signup-form  form-input-group sign-up" novalidate>
                             <div id="mc_embed_signup_scroll signup-form">
 
 
-                            <form>
-                            <input type="email" name="email" class="required email input-regular" placeholder="Enter your email address" id="mce-EMAIL" required pattern="[^ @]+@[^ @]+.[a-z]+">
+
+                            <input type="email" value="email" name="email" class="required email input-regular" placeholder="Enter your email address" id="mce-EMAIL" required >
 
                              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-fill sign-up-btn signup-intro">
-                           </form>
+
                             <div id="mce-responses" class="clears">
                                 <div class="response" id="mce-error-response" style="display:none"></div>
                                 <div class="response" id="mce-success-response" style="display:none"></div>
@@ -52,6 +52,7 @@
                             <div style="position: absolute; left: -5000px;"><input type="text" name="b_a3de5825e5d3f1ac1e10b36a6_df22f19834" tabindex="-1" value=""></div>
 
                             </div>
+                        </form>
                         </div>
 
                         <!--End mc_embed_signup-->
@@ -69,7 +70,6 @@
         </div>
 
          <div class="footer-credits no-shadow">
-
                     <?php
 
             //menu-elements
@@ -90,28 +90,28 @@
 
         ?>
         <script>
-        $(document).ready(function(){
-            // document.getElementById("mc-embedded-subscribe").disabled = true;
-            // $('#mce-EMAIL').on('onkeyup',function(){
-            //   if(document.getElementById("mce-EMAIL").checkValidity()) {
-            //     document.getElementById("mc-embedded-subscribe").disabled = false;
-            //   }
-            // });
-            function validateEmail(email) {
-                var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
-                return re.test(email);
-            }
-            $('#mc-embedded-subscribe').on('click',function(){
-              var emailId = $('#mce-EMAIL').val();
-              if(validateEmail(emailId)){
-                $.post('http://caspoenergy.elasticbeanstalk.com/submitEmail', {email:emailId}).
-                done(function(data){
-                $('#mc_embed_signup').html('<div class="thankyou" style="color:white">Thanks! We\'ll get back to you soon</div>')
-                });
-              }
-          });
-        });
+            $(document).ready(function(){
+                // document.getElementById("mc-embedded-subscribe").disabled = true;
+                // $('#mce-EMAIL').on('onkeyup',function(){
+                //   if(document.getElementById("mce-EMAIL").checkValidity()) {
+                //     document.getElementById("mc-embedded-subscribe").disabled = false;
+                //   }
+                // });
+                function validateEmail(email) {
+                    var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+                    return re.test(email);
+                }
+                $('#mc-embedded-subscribe').on('click',function(){
+                  var emailId = $('#mce-EMAIL').val();
+                  if(validateEmail(emailId)){
+                    $.post('http://caspoenergy.elasticbeanstalk.com/submitEmail', {email:emailId}).
+                    done(function(data){
+                    $('#mc_embed_signup').html('<div class="thankyou" style="color:white">Thanks! We\'ll get back to you soon</div>')
+                    });
+                  }
+              });
+            });
 
-        </script>
+            </script>
 </body>
 </html>

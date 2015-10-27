@@ -252,6 +252,11 @@
 	@media screen and (max-width:640px) {
 
 
+		.about-main-title {
+			padding-top: 400px;
+
+		}
+
 
 		.footer-credits--social--icons {
 

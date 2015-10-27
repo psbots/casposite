@@ -18,8 +18,8 @@ Default Menu
                             <ul class="primary-nav">
                                 <li><a href="caspo-electric.php">Electric</a></li>
                                 <li><a href="caspo-gas.php">Gas</a></li>
-                                <li><a href="caspo-green.php">Green</a></li>
-                                <li><a href="caspo-enterprise.php">Enterprise</a></li>
+                                <!--<li><a href="caspo-green.php">Green</a></li>
+                                <li><a href="caspo-enterprise.php">Enterprise</a></li>-->,
                                
                             </ul>
                             <ul class="member-actions">
