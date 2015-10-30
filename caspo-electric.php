@@ -62,7 +62,6 @@
                         <h3>Zero Emissions. Zero Compromises.</h3>
                         <p>Caspo is designed with a zero emission strategy as a household initiative to protect our environment. By minimising the carbon footprint of cooking, most households can contribute enormously.
                         </p>
-                        <a href="#" class="btn btn-ghost btn-accent btn-small">Download the app</a>
                     </div>
                 </div>
             </div>
@@ -99,9 +98,8 @@
                 <div class="col-md-5">
                     <div class="feature-list">
                         <h3>Design</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        <p>Caspo has an aesthetically pleasing design that is sleek and classy. It looks contemporary, bright and attractive. Being multifunctional, comfortable and stylish, it blends with the modern kitchen.
                         </p>
-                        <a href="#" class="btn btn-ghost btn-accent btn-small">Download the app</a>
                     </div>
                 </div>
             </div>
@@ -126,7 +124,6 @@
                         <h3>Timer knob</h3>
                         <p>The timer knob allows Caspo to turn off automatically once the dish is cooked empowering the homemaker to multitask with peace of mind.
                         </p>
-                        <a href="#" class="btn btn-ghost btn-accent btn-small">Download the app</a>
                     </div>
                 </div>
             </div>
@@ -150,7 +147,6 @@
                         <h3>Phone Docking</h3>
                         <p>Ergonomically designed safe docking slot to allow browsing on your phone even while cooking. You can now have your recipes on display for easy cooking.
                         </p>
-                        <a href="#" class="btn btn-ghost btn-accent btn-small">Download the app</a>
                     </div>
                 </div>
             </div>
@@ -167,9 +163,8 @@
                 <div class="col-md-5 col-md-offset-7">
                     <div class="feature-list">
                         <h3>Temperature and Weight Sensor</h3>
-                        <p> Smart cooking powered by multiple sensors for that perfect cooking experience.
+                        <p> Smart cooking powered by multiple sensors for that perfect cooking experience. This feature allows you to estimate the temperature of the dish and helps prevent overcooking. The weight sensor also helps to count your calorie intake like never before.
                         </p>
-                        <a href="#" class="btn btn-ghost btn-accent btn-small">Download the app</a>
                     </div>
                 </div>
             </div>
