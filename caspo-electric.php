@@ -33,8 +33,8 @@
             <div class="row">
                 <div class="col-md-10 col-md-push-1">
                     <div class="hero-content text-center">
-                        <h1>Cooking More techie</h1>
-                        <p class="intro">Introducing the new Caspo electric induction cooktop powered by blah blah.</p>
+                        <h1>Cooking Made Simple</h1>
+                        <p class="intro">Introducing the new Caspo electric cooktop.</p>
 
                     </div>
 
@@ -166,8 +166,8 @@
             <div class="row">
                 <div class="col-md-5 col-md-offset-7">
                     <div class="feature-list">
-                        <h3>Tempurtrature and Weight Sensor</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        <h3>Temperature and Weight Sensor</h3>
+                        <p> Smart cooking powered by multiple sensors for that perfect cooking experience.
                         </p>
                         <a href="#" class="btn btn-ghost btn-accent btn-small">Download the app</a>
                     </div>
