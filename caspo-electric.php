@@ -23,9 +23,9 @@
              <div class="addition-nav">
 
                 <div class="a-nav--container">
-                    <a href="#">Design</a>
-                    <a href="#">Features</a>
-                    <a href="#">Features</a>
+                    <a href="#design-showcase">Design</a>
+                    <a href="#feat-showcase">Features</a>
+                    <a href="#app-showcase">App</a>
                 </div>
              </div>
         </section>
@@ -93,7 +93,7 @@
 
 
     <!--- Features -->
-    <section class="features-extra section-padding" id="assets">
+    <section class="features-extra section-padding" id="design-showcase">
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
@@ -191,7 +191,7 @@
 
 
 
-    <section class="intro section-padding">
+    <section class="intro section-padding" id="feat-showcase">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 intro-feature">
@@ -294,9 +294,8 @@
 
 
 
-
-                    <div class="col-md-6 col-xs-10 col-xs-offset-1 col-md-offset-0">
-                        <div class="app-ui-details">
+                    <div class="col-md-6 col-xs-10 col-xs-offset-1 col-md-offset-0" id="app-showcase">
+                        <div class="app-ui-details" >
                             <div class="row">
                                 <ul id="mobile-ui--slideshow--desc">
                                     <li class="active">
@@ -335,7 +334,7 @@
 
 
 
-    <section class="parallax paralllex--design-1" id="new">
+    <section class="parallax paralllex--design-1">
 
         <div class="container">
             <div class="row">
@@ -343,8 +342,11 @@
                     <h3>Be among the first early adopters</h3>
                     <p>Help us continually improve Angee and we will do as much as we can to satisfy your real needs. We have created an excellent functional prototype, but to scale to serial production we need your help.</p>
 
-                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-fill sign-up-btn signup-intro">
+                    <form>
+                            <input type="email" name="email" class="required email input-regular" placeholder="Enter your email address" id="mce-EMAIL" required pattern="[^ @]+@[^ @]+.[a-z]+">
 
+                             <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-fill sign-up-btn signup-intro">
+                           </form>
                 </div>
             </div>
         </div>

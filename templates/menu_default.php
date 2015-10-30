@@ -24,7 +24,7 @@ Default Menu
                             </ul>
                             <ul class="member-actions">
                                 <li><a href="https://caspoenergy.wordpress.com/" class="login">Blog</a></li>
-                                <li><a href="appshow.php" class="btn btn-white btn-small">Download the app</a></li>
+                                <!--<li><a href="appshow.php" class="btn btn-white btn-small">Download the app</a></li>-->
                             </ul>
                         </nav>
                     </div>

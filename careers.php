@@ -7,7 +7,7 @@
 
 ?>
 
-<body id="single-while-bg">
+<body id="single-while-bg no-overflow">
 
     <section class="hero">
         <section class="navigation fixed fixed-alltime">
