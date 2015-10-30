@@ -1,6 +1,5 @@
 <html>
 <?php
-
     //include <head>
     include('templates/header.php');
 
@@ -31,7 +30,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="about-main-title">
-                        <h1 class="">a smart kitchen should be actually smart for instance if there is a gas leakage or an electrical short circuia</h1>
+                        <h1 class="">a A smart kitchen is a safe kitchen</h1>
                 
                         
                     </div>
@@ -43,7 +42,6 @@
                 <div class="col-md-6">
                     <img class="hero-content img-responsive" src="img/caspo-cooktop1.jpg" />
                 </div>
-
             -->
             </div>
 
@@ -63,8 +61,8 @@
                     <div class="col-md-8 col-md-push-2 text-center margin--header no-shadow full-height-center">
 
                         <h1>We Believe</h1>
-                        <p>a smart kitchen should be actually smart for instance if there is a gas leakage or an electrical short circuit all systems should be shut off and the user should be send an alert  ,interconnection and intelligent functions of a kitchen demands a smart hub and we believe that a device like a cooktop that is present in all kitchen should perform this functions as well .”
-“so to start with we are building a stove top which can learn from your habits and also help you to take care of your family's nutrition  ,which over time can add  more devices as times go by and get better</p>
+                        <p>A truly smart kitchen should be able to handle each and every situation including gas leaks or electrical short circuits. During such hazardous conditions, all systems should be automatically shut down and the user has to be alerted immediately.It will be beneficial to incorporate intelligence and connectivity in a device like a cooktop, which is essential to every kitchen. We have in mind a smart hub that can understand your dietary habits and assist you in the kitchen. As our first step, we are building a stove top which can learn from your habits and also help you to take care of your family's nutrition. Surely this device can be improved upon to include upcoming technology to make your kitchen even better!�
+</p>
                         
 
                     </div>
@@ -105,9 +103,7 @@
     <div class="clear"></div>
         <div class="main-footer">
                        <?php
-
             //menu-elements 
-
             include('templates/footer_default_credits.php');
 ?>
         </div>
@@ -118,11 +114,8 @@
 
 
  <?php
-
             //menu-elements
-
             include('templates/footer_scripts.php');
-
         ?>
 
 

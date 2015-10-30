@@ -34,7 +34,7 @@
                 <div class="col-md-10 col-md-push-1">
                     <div class="hero-content text-center">
                         <h1>Cooking More techie</h1>
-                        <p class="intro">Introducing the new caspo electric induction cooktop powered by blah blah.</p>
+                        <p class="intro">Introducing the new Caspo electric induction cooktop powered by blah blah.</p>
 
                     </div>
 
@@ -60,7 +60,7 @@
                 <div class="col-md-10 col-md-push-1">
                     <div class="feature-list text-center">
                         <h3>Zero Emissions. Zero Compromises.</h3>
-                        <p>Tesla's advanced electric powertrain delivers exhilarating performance. Unlike a gasoline internal combustion engine with hundreds of moving parts, Tesla electric motors have only one moving piece: the rotor. As a result, Model S acceleration is instantaneous, silent and smooth. Step on the accelerator and in as little as 2.8 seconds Model S is travelling 60 miles per hour, without hesitation, and without a drop of gasoline. Model S is an evolution in automobile engineering.
+                        <p>Caspo is designed with a zero emission strategy as a household initiative to protect our environment. By minimising the carbon footprint of cooking, most households can contribute enormously.
                         </p>
                         <a href="#" class="btn btn-ghost btn-accent btn-small">Download the app</a>
                     </div>
@@ -75,13 +75,13 @@
             <ul class="slides">
                 <li class="ss1 slider-li">
                     <div class="container">
-                        <h2>Cook Smart. Not Harder</h2>
-                        <p>Its Wonderfull</p>
+                        <h2>Cook with ease</h2>
+                        <p> Enjoy this wonderful experience</p>
                     </div>
                 </li>
                 <li class="ss2 slider-li"> <div class="container">
-                        <h2>Cook Smart. Not Harder</h2>
-                        <p>Its Wonderfull</p>
+                        <h2>Cooking Smart saves time</h2>
+                        <p>Spend every minute with your family</p>
                     </div></li>
                 <li class="ss3 slider-li"> <div class="container">
                         <h2>Cook Smart. Not Harder</h2>
@@ -93,7 +93,7 @@
 
 
     <!--- Features -->
-    <section class="features-extra section-padding" id="design-showcase">
+    <section class="features-extra section-padding" id="assets">
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
@@ -123,8 +123,8 @@
 
                 <div class="col-md-5 col-md-offset-7">
                     <div class="feature-list">
-                        <h3>Timer Nob</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        <h3>Timer knob</h3>
+                        <p>The timer knob allows Caspo to turn off automatically once the dish is cooked empowering the homemaker to multitask with peace of mind.
                         </p>
                         <a href="#" class="btn btn-ghost btn-accent btn-small">Download the app</a>
                     </div>
@@ -148,7 +148,7 @@
                 <div class="col-md-5">
                     <div class="feature-list">
                         <h3>Phone Docking</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        <p>Ergonomically designed safe docking slot to allow browsing on your phone even while cooking. You can now have your recipes on display for easy cooking.
                         </p>
                         <a href="#" class="btn btn-ghost btn-accent btn-small">Download the app</a>
                     </div>
@@ -200,7 +200,7 @@
                     </div>
                     <div class="intro-content">
                         <h5>Phone Docking</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                        <p></p>
                     </div>
                 </div>
                 <div class="col-md-4 intro-feature">
@@ -209,7 +209,7 @@
                     </div>
                     <div class="intro-content">
                         <h5>Integrated Sensor</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                        <p></p>
                     </div>
                 </div>
                 <div class="col-md-4 intro-feature">
@@ -218,7 +218,7 @@
                     </div>
                     <div class="intro-content last">
                         <h5>Light Indicated Timer / knob</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                        <p></p>
                     </div>
                 </div>
 
@@ -237,7 +237,7 @@
                     </div>
                     <div class="intro-content">
                         <h5>Electric / Induction</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                        <p></p>
                     </div>
                 </div>
                 <div class="col-md-4 intro-feature">
@@ -246,7 +246,7 @@
                     </div>
                     <div class="intro-content">
                         <h5>Easy to clean</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                        <p></p>
                     </div>
                 </div>
                 <div class="col-md-4 intro-feature">
@@ -255,7 +255,7 @@
                     </div>
                     <div class="intro-content last">
                         <h5>Wifi connected.</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                        <p></p>
                     </div>
                 </div>
             </div>
@@ -294,29 +294,30 @@
 
 
 
-                    <div class="col-md-6 col-xs-10 col-xs-offset-1 col-md-offset-0" id="app-showcase">
-                        <div class="app-ui-details" >
+
+                    <div class="col-md-6 col-xs-10 col-xs-offset-1 col-md-offset-0">
+                        <div class="app-ui-details">
                             <div class="row">
                                 <ul id="mobile-ui--slideshow--desc">
                                     <li class="active">
-                                        <h3>Controls right on your fingers</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                                        <h3>Control with your fingertips</h3>
+                                        <p>Now you can turn off the flame without leaving the comfort of your couch.This feature lets you control the flame pattern through the mobile app.No more missing out on the climax of your favorite TV shows.</p>
                                     </li>
 
                                     <li>
-                                        <h3>Find new Recepies</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                                        <h3> Recipe finder</h3>
+                                        <p>All the recipes of the world are a click-away from you. It is a must-have for the health conscious eaters who crave variety in their diet</p>
                                     </li>
 
                                     <li>
-                                        <h3>Hear podcasts from various foodies around you</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                                        <h3>Tune in to your favourite podcasts</h3>
+                                        <p>Now you can enjoy podcasts from various foodies while you are cooking.There are a variety of podcasts that feature anything from tricks and tidbits to help you cook to mellifluous music to set the mood.</p>
                                     </li>
 
 
                                 </ul>
 
-                                <a href="mobile-ui-display.html" id="mc-embedded-subscribe" class="button btn btn-fill sign-up-btn signup-intro">Learn more</a>
+                                <a href="appshow.php" id="mc-embedded-subscribe" class="button btn btn-fill sign-up-btn signup-intro">Learn more</a>
                             </div>
                         </div>
                     </div>
@@ -339,11 +340,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-push-3">
-                    <h3>Be among the first early adopters</h3>
-                    <p>Help us continually improve Angee and we will do as much as we can to satisfy your real needs. We have created an excellent functional prototype, but to scale to serial production we need your help.</p>
-
-                    <form>
-                            <input type="email" name="email" class="required email input-regular" placeholder="Enter your email address" id="mce-EMAIL" required pattern="[^ @]+@[^ @]+.[a-z]+">
+                    <h3>Be among the early adopters</h3>
+                    <p>Help us continually improve Caspo and we will do as much as we can to satisfy your real needs. We have created an excellent functional prototype, but to scale to serial production we need your help.</p>
 
                              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-fill sign-up-btn signup-intro">
                            </form>
