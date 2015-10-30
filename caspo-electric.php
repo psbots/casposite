@@ -35,7 +35,7 @@
                     <div class="hero-content text-center">
                         <h1>Cooking More techie</h1>
                         <p class="intro">Introducing the new caspo electric induction cooktop powered by blah blah.</p>
-                        
+
                     </div>
 
                 </div>
@@ -67,10 +67,29 @@
                 </div>
             </div>
         </div>
-        
+
     </section>
 
-
+    <section class="image-show-slider section-padding text-center">
+        <div class="flexslider">
+            <ul class="slides">
+                <li class="ss1 slider-li">
+                    <div class="container">
+                        <h2>Cook Smart. Not Harder</h2>
+                        <p>Its Wonderfull</p>
+                    </div>
+                </li>
+                <li class="ss2 slider-li"> <div class="container">
+                        <h2>Cook Smart. Not Harder</h2>
+                        <p>Its Wonderfull</p>
+                    </div></li>
+                <li class="ss3 slider-li"> <div class="container">
+                        <h2>Cook Smart. Not Harder</h2>
+                        <p>Its Wonderfull</p>
+                    </div></li>
+            <ul>
+        </div>
+    </section>
 
 
     <!--- Features -->
@@ -100,7 +119,7 @@
         <div class="container">
             <div class="row">
 
-                
+
 
                 <div class="col-md-5 col-md-offset-7">
                     <div class="feature-list">
@@ -118,7 +137,7 @@
         <div class="responsive-feature-img"><img src="imgs/renders/red.243.jpg" alt="responsive devices"></div>
 
 
-        
+
     </section>
 
 
@@ -160,31 +179,12 @@
     </section>
 
 
-    
+
 
     <!---- End Features -->
 
 
-    <section class="image-show-slider section-padding text-center">
-        <div class="flexslider">
-            <ul class="slides">
-                <li class="ss1 slider-li">
-                    <div class="container">
-                        <h2>Cook Smart. Not Harder</h2>
-                        <p>Its Wonderfull</p>
-                    </div>
-                </li>
-                <li class="ss2 slider-li"> <div class="container">
-                        <h2>Cook Smart. Not Harder</h2>
-                        <p>Its Wonderfull</p>
-                    </div></li>
-                <li class="ss3 slider-li"> <div class="container">
-                        <h2>Cook Smart. Not Harder</h2>
-                        <p>Its Wonderfull</p>
-                    </div></li>
-            <ul>
-        </div>
-    </section>
+
 
 
 
@@ -267,8 +267,8 @@
             <section class="features section-padding" id="download">
             <div class="container">
                 <div class="row">
-                    
-                    
+
+
                     <div class="col-sm-6">
                             <div class="mockup-nexus-a">
                                 <div class="mockup-nexus--display">
@@ -288,10 +288,10 @@
                                 </div>
                             </div>
 
-                            
+
                     </div>
 
-                
+
 
 
 
@@ -314,7 +314,7 @@
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
                                     </li>
 
-                                    
+
                                 </ul>
 
                                 <a href="mobile-ui-display.html" id="mc-embedded-subscribe" class="button btn btn-fill sign-up-btn signup-intro">Learn more</a>
@@ -322,17 +322,17 @@
                         </div>
                     </div>
 
-                 
+
                 </div>
             </div>
 
         </section>
 
 
-    
 
 
-    
+
+
 
 
     <section class="parallax paralllex--design-1" id="new">
@@ -355,15 +355,15 @@
         <div class="main-footer">
                     <?php
 
-            //menu-elements 
+            //menu-elements
 
             include('templates/footer_default_credits.php');
 
-        ?> 
+        ?>
         </div>
 
 
-    
+
 
 
 <!--
