@@ -393,7 +393,8 @@ Hero
   background-image: -o-linear-gradient(top, rgba(98, 135, 181, 0.58), rgba(0, 0, 0, 0.1)), url("../imgs/centerized.39.jpg");
   background-image: -ms-linear-gradient(top, rgba(98, 135, 181, 0.58), rgba(0, 0, 0, 0.1)), url("../imgs/centerized.39.jpg");
   background-image: -webkit-gradient(top, rgba(98, 135, 181, 0.58), rgba(0, 0, 0, 0.1)), url("../imgs/centerized.39.jpg");
-  background-image: -webkit-linear-gradient(top, rgba(98, 135, 181, 0.58), rgba(0, 0, 0, 0.1)), url("../imgs/centerized.39.jpg"); }
+  background-image: -webkit-linear-gradient(top, rgba(98, 135, 181, 0.58), rgba(0, 0, 0, 0.1)), url("../imgs/centerized.39.jpg");
+  background-position: 0%; }
 
 .navigation {
   transition: all 300ms ease-in-out;
@@ -476,7 +477,11 @@ header {
   left: 50%;
   transform: translateX(-50%); }
 
+.addition-nav-downed {
+  background: #333333 !important; }
+
 .addition-nav {
+  transition: all 0.2s ease-in;
   width: 100%;
   padding: 10px 0;
   background: rgba(255, 255, 255, 0.2);
@@ -598,11 +603,15 @@ Features-stack
     z-index: 4;
     right: 50%; }
   .features-extra .phone-doc--pic {
-    background: url("../imgs/renders/centerized.37.jpg") no-repeat center center;
+    background: url("../imgs/renders/kitchen new 2.48.jpg") no-repeat center center;
     background-size: cover;
-    background-position: 0 0px; }
+    background-position: 0px -100px; }
   .features-extra .timer-nob--pic {
     background: url("../imgs/renders/red.243.jpg") no-repeat center center;
+    background-size: cover;
+    background-position: 0 -200px; }
+  .features-extra .temp-weight--pic {
+    background: url("../imgs/renders/untitled.52.jpg") no-repeat center center;
     background-size: cover;
     background-position: 0 -200px; }
   .features-extra .design--pic {
@@ -766,15 +775,15 @@ Features-stack
     color: #3D4351; }
 
 /* ==========================================================================
-.testimonial-slider
+.Image-show-slider
 ========================================================================== */
-.testimonial-slider {
+.image-show-slider {
   background: url("../img/testimonials-bg.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-  .testimonial-slider .avatar {
+  .image-show-slider .avatar {
     width: 82px;
     height: 82px;
     margin: 0 auto;
@@ -783,19 +792,34 @@ Features-stack
     border-radius: 50%;
     border: solid 3px #fff;
     background-color: #fff; }
-    .testimonial-slider .avatar img {
+    .image-show-slider .avatar img {
       width: 82px;
       height: auto; }
-  .testimonial-slider h2 {
+  .image-show-slider h2 {
     color: #fff;
     font-size: 40px;
     font-weight: 300;
     font-style: italic;
     margin: 30px 0; }
-  .testimonial-slider p {
-    color: #ACB1B4;
+  .image-show-slider p {
+    color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px; }
+  .image-show-slider .slider-li {
+    height: 600px;
+    padding-top: 170px; }
+  .image-show-slider .ss1 {
+    background: linear-gradient(rgba(177, 177, 177, 0.7), rgba(64, 64, 64, 0.64)), url("../imgs/4X0A7620.jpg") no-repeat;
+    background-size: cover;
+    width: 100%; }
+  .image-show-slider .ss2 {
+    background: linear-gradient(rgba(177, 177, 177, 0.7), rgba(64, 64, 64, 0.64)), url("../imgs/4X0A7786.jpg") no-repeat;
+    background-size: cover;
+    width: 100%; }
+  .image-show-slider .ss3 {
+    background: linear-gradient(rgba(177, 177, 177, 0.7), rgba(64, 64, 64, 0.64)), url("../imgs/4X0A7840.jpg") no-repeat;
+    background-size: cover;
+    width: 100%; }
 
 /* ==========================================================================
 Sign up form

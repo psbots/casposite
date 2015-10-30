@@ -137,7 +137,7 @@
             </div>
         </div>
         <div class="macbook-wrap phone-doc--pic wp3"></div>
-        <div class="responsive-feature-img"><img src="imgs/renders/kitchen-new-2-26.jpg" alt="responsive devices"></div>
+        <div class="responsive-feature-img"><img src="imgs/renders/kitchen new 2.48.jpg" alt="responsive devices"></div>
     </section>
 
 
@@ -155,14 +155,40 @@
                 </div>
             </div>
         </div>
-        <div class="caspo-d1-wrap timer-nob--pic wp1"></div>
-        <div class="responsive-feature-img"><img src="img/macbook-pro.png" alt="responsive devices"></div>
+        <div class="caspo-d1-wrap temp-weight--pic wp1"></div>
+        <div class="responsive-feature-img"><img src="img/untitled.52.png" alt="responsive devices"></div>
     </section>
 
 
     
 
     <!---- End Features -->
+
+
+    <section class="image-show-slider section-padding text-center">
+        <div class="flexslider">
+            <ul class="slides">
+                <li class="ss1 slider-li">
+                    <div class="container">
+                        <h2>Cook Smart. Not Harder</h2>
+                        <p>Its Wonderfull</p>
+                    </div>
+                </li>
+                <li class="ss2 slider-li"> <div class="container">
+                        <h2>Cook Smart. Not Harder</h2>
+                        <p>Its Wonderfull</p>
+                    </div></li>
+                <li class="ss3 slider-li"> <div class="container">
+                        <h2>Cook Smart. Not Harder</h2>
+                        <p>Its Wonderfull</p>
+                    </div></li>
+            <ul>
+        </div>
+    </section>
+
+
+
+
 
 
     <section class="intro section-padding">
@@ -199,7 +225,7 @@
 
                 <!-- Fornt pic -->
                 <div class="col-md-12 intro-feature cooktop-mockup--front-display">
-                    <img src="imgs/fake-stove-testng.jpg" class="img-responsive" />
+                    <img src="imgs/renders/caspo-stove-front-view.jpg" class="img-responsive" />
                 </div>
 
 

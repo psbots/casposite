@@ -71,6 +71,10 @@ $(document).ready(function() {
 
 			if (scroll >= 30) {
 				$('section.navigation').addClass('fixed');
+
+				$('.addition-nav').addClass('addition-nav-downed');
+
+				
 				$('header').css({
 					"border-bottom": "none",
 					"padding": "35px 0",
@@ -84,6 +88,7 @@ $(document).ready(function() {
 				});
 			} else {
 				$('section.navigation').removeClass('fixed');
+				$('.addition-nav').removeClass('addition-nav-downed');
 				$('header').css({
 					"border-bottom": "solid 0px rgba(255, 255, 255, 0.2)",
 					"padding": "50px 0",
