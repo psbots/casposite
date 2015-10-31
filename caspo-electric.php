@@ -33,9 +33,8 @@
             <div class="row">
                 <div class="col-md-10 col-md-push-1">
                     <div class="hero-content text-center">
-                        <h1>Cooking Made Simple</h1>
+                        <h1>Your perfect cooking companion.</h1>
                         <p class="intro">Introducing the new Caspo electric cooktop.</p>
-
                     </div>
 
                 </div>
@@ -59,8 +58,8 @@
             <div class="row">
                 <div class="col-md-10 col-md-push-1">
                     <div class="feature-list text-center">
-                        <h3>Zero Emissions. Zero Compromises.</h3>
-                        <p>Caspo is designed with a zero emission strategy as a household initiative to protect our environment. By minimising the carbon footprint of cooking, most households can contribute enormously.
+                        <h3>World's first learning stovetop.</h3>
+                        <p>Caspo learns from your cooking habits, understands your health constraints and helps you improve in the ways you want to improve. Caspo can help you reduce your energy bills, lose weight, gain muscles, eat tasty food even when you have diabetes, or reduce the amount of time you spend in front of your cooktop.
                         </p>
                     </div>
                 </div>
@@ -74,17 +73,17 @@
             <ul class="slides">
                 <li class="ss1 slider-li">
                     <div class="container">
-                        <h2>Cook with ease</h2>
-                        <p> Enjoy this wonderful experience</p>
+                        <h2>Multitak away</h2>
+                        <p> In-built sensors prevent overcooking</p>
                     </div>
                 </li>
                 <li class="ss2 slider-li"> <div class="container">
-                        <h2>Cooking Smart saves time</h2>
+                        <h2>Control remotely</h2>
                         <p>Spend every minute with your family</p>
                     </div></li>
                 <li class="ss3 slider-li"> <div class="container">
-                        <h2>Cook Smart. Not Harder</h2>
-                        <p>Its Wonderfull</p>
+                        <h2>Eat healthy</h2>
+                        <p>Personalised suggestions to improve your family health</p>
                     </div></li>
             <ul>
         </div>
@@ -121,8 +120,8 @@
 
                 <div class="col-md-5 col-md-offset-7">
                     <div class="feature-list">
-                        <h3>Timer knob</h3>
-                        <p>The timer knob allows Caspo to turn off automatically once the dish is cooked empowering the homemaker to multitask with peace of mind.
+                        <h3>Dual control knob</h3>
+                        <p>Ergonomically designed knob that controls flame and sets timer with minimal hand movement. Turn to adjust flame. Press and turn to set timer.
                         </p>
                     </div>
                 </div>
