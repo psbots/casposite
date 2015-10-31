@@ -190,7 +190,7 @@
             <div class="row">
                 <div class="col-md-4 intro-feature">
                     <div class="intro-icon">
-                        <span data-icon="&#xe033;" class="icon"></span>
+                        <span class="icon"><img src="imgs/icons/smartphone20.png"></span>
                     </div>
                     <div class="intro-content">
                         <h5>Phone Docking</h5>
@@ -199,7 +199,7 @@
                 </div>
                 <div class="col-md-4 intro-feature">
                     <div class="intro-icon">
-                        <span data-icon="&#xe030;" class="icon"></span>
+                      <span class="icon"><img src="imgs/icons/view32.png"></span>
                     </div>
                     <div class="intro-content">
                         <h5>Integrated Sensor</h5>
@@ -208,7 +208,7 @@
                 </div>
                 <div class="col-md-4 intro-feature">
                     <div class="intro-icon">
-                        <span data-icon="&#xe046;" class="icon"></span>
+                      <span class="icon"><img src="imgs/icons/buttons16.png"></span>
                     </div>
                     <div class="intro-content last">
                         <h5>Light Indicated Timer / knob</h5>
@@ -227,7 +227,7 @@
 
                 <div class="col-md-4 intro-feature">
                     <div class="intro-icon">
-                        <span data-icon="&#xe033;" class="icon"></span>
+                      <span class="icon"><img src="imgs/icons/flash31.png"></span>
                     </div>
                     <div class="intro-content">
                         <h5>Electric / Induction</h5>
@@ -236,7 +236,7 @@
                 </div>
                 <div class="col-md-4 intro-feature">
                     <div class="intro-icon">
-                        <span data-icon="&#xe030;" class="icon"></span>
+                      <span class="icon"><img src="imgs/icons/clean11.png"></span>
                     </div>
                     <div class="intro-content">
                         <h5>Easy to clean</h5>
@@ -245,7 +245,7 @@
                 </div>
                 <div class="col-md-4 intro-feature">
                     <div class="intro-icon">
-                        <span data-icon="&#xe046;" class="icon"></span>
+                      <span class="icon"><img src="imgs/icons/computer190.png"></span>
                     </div>
                     <div class="intro-content last">
                         <h5>Wifi connected.</h5>
