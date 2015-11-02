@@ -64,8 +64,8 @@
                     <div class="feature-list text-center">
                     <br>
                         <h2>World's first learning stovetop.</h2><br>
-                        <p>Caspo learns from your cooking habits, understands your health constraints and helps you improve in the ways you want to improve. Caspo can help you reduce your energy bills, lose weight, gain muscles, eat tasty food even when you have diabetes, or reduce the amount of time you spend in front of your cooktop.
-                        </p>
+                        <b><p>Caspo learns from your cooking habits, understands your health constraints and helps you improve in the ways you want to improve. Caspo can help you reduce your energy bills, lose weight, gain muscles, eat tasty food even when you have diabetes, or reduce the amount of time you spend in front of your cooktop.
+                        </p></b>
 
 
 
