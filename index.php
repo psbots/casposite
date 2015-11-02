@@ -356,7 +356,9 @@
 
   <div class="mc-field-group">
   	<label for="mce-EMAIL"></label>
-  	<input type="email" value="" style="font-color:black;" name="EMAIL" class="required email" id="mce-EMAIL">
+    <font color="black">
+  	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+  </font>
   </div>
   	<div id="mce-responses" class="clear">
   		<div class="response" id="mce-error-response" style="display:none"></div>
