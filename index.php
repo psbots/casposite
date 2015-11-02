@@ -98,10 +98,10 @@
 
 
     <!--- Features -->
-    <section class="features-extra section-padding" id="assets">
+    <section class="features-extra section-padding" id="design-showcase">
         <div class="container">
             <div class="row">
-                <div class="col-md-5"> 
+                <div class="col-md-5">
                     <div class="feature-list">
                         <h3><font color="#004078">Design</font></h3>
                         <p>Caspo has an aesthetically pleasing design that is sleek and classy. It looks contemporary, bright and attractive. Being multifunctional, comfortable and stylish, it blends with the modern kitchen.
@@ -265,7 +265,7 @@
 
 
 
-            <section class="features section-padding" id="download">
+            <section class="features section-padding" id="app-features">
             <div class="container">
                 <div class="row">
 
@@ -344,8 +344,29 @@
                     <h3>Be among the early adopters</h3>
                     <p>Help us continually improve Caspo and we will do as much as we can to satisfy your real needs. We have created an excellent functional prototype, but to scale to serial production we need your help.</p>
 
-                             <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-fill sign-up-btn signup-intro">
-                           </form>
+                             <!-- <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-fill sign-up-btn signup-intro"> -->
+
+
+                             <!-- Begin MailChimp Signup Form -->
+  <div id="mc_embed_signup">
+  <form action="//caspoenergy.us11.list-manage.com/subscribe/post?u=a3de5825e5d3f1ac1e10b36a6&amp;id=ae21af52cb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <div id="mc_embed_signup_scroll">
+
+  <div class="mc-field-group">
+  	<label for="mce-EMAIL">Email Address </label>
+  	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+  </div>
+  	<div id="mce-responses" class="clear">
+  		<div class="response" id="mce-error-response" style="display:none"></div>
+  		<div class="response" id="mce-success-response" style="display:none"></div>
+  	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;"><input type="text" name="b_a3de5825e5d3f1ac1e10b36a6_ae21af52cb" tabindex="-1" value=""></div>
+      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-fill sign-up-btn signup-intro"></div>
+      </div>
+  </form>
+  </div>
+
+  <!--End mc_embed_signup-->
                 </div>
             </div>
         </div>
@@ -431,7 +452,7 @@
         ?>
 
 
-        <script>
+        <!-- <script>
             $(document).ready(function(){
                 // document.getElementById("mc-embedded-subscribe").disabled = true;
                 // $('#mce-EMAIL').on('onkeyup',function(){
@@ -454,7 +475,7 @@
               });
             });
 
-            </script>
+            </script> -->
 
 </body>
 </html>
