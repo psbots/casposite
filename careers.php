@@ -15,7 +15,7 @@
 
             //menu-elements
 
-            include('templates/menu_default.php');
+            include('templates/menu_temp.php');
 
             ?>
         </section>
@@ -38,7 +38,7 @@
                         <p>careers@caspoenergy.com</p>
                     </div>
 
-               
+
 
                 </div>
 
@@ -59,7 +59,7 @@
         <div class="main-footer">
                        <?php
 
-            //menu-elements 
+            //menu-elements
 
             include('templates/footer_default_credits.php');
 ?>

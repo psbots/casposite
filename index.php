@@ -37,8 +37,10 @@
                         <h4><font color="white">Coming soon on your favourite crowd-funding platform.</h4><br><br><br>
                     </div>
                    <div class="preorder-intro">
-                            <center><a href="#" class="btn btn-fill btn-large btn-margin-right pre-order-btn-intro">Subscribe now</a><br><br><h4><font color="white"> Subscribe now to get early bird discounts</font></h4></center>
-                    </div> -->
+                            <center>
+                              <a href="#subscribe" class="btn btn-fill btn-large btn-margin-right pre-order-btn-intro">Subscribe now</a>
+                              <br><br><h4><font color="white"> Subscribe now to get early bird discounts</font></h4></center>
+                    </div>
                 </div>
 
 
@@ -143,7 +145,7 @@
 
     </section>
 
-
+   <br><br><br>
 
     <section class="features-extra section-padding" id="assets">
         <div class="container">
@@ -265,7 +267,7 @@
 
 
 
-            <section class="features section-padding" id="app-features">
+            <section class="features section-padding" id="app-showcase">
             <div class="container">
                 <div class="row">
 
@@ -318,7 +320,7 @@
 
                                 </ul>
 
-                                <a href="appshow.php" id="mc-embedded-subscribe" class="button btn btn-fill sign-up-btn signup-intro">Learn more</a>
+                                <!-- <a href="appshow.php" id="mc-embedded-subscribe" class="button btn btn-fill sign-up-btn signup-intro">Learn more</a> -->
                             </div>
                         </div>
                     </div>
@@ -336,7 +338,7 @@
 
 
 
-    <section class="parallax paralllex--design-1">
+    <section class="parallax paralllex--design-1" id="subscribe">
 
         <div class="container">
             <div class="row">
@@ -353,15 +355,15 @@
       <div id="mc_embed_signup_scroll">
 
   <div class="mc-field-group">
-  	<label for="mce-EMAIL">Email Address </label>
-  	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+  	<label for="mce-EMAIL"></label>
+  	<input type="email" value="" style="font-color:black;" name="EMAIL" class="required email" id="mce-EMAIL">
   </div>
   	<div id="mce-responses" class="clear">
   		<div class="response" id="mce-error-response" style="display:none"></div>
   		<div class="response" id="mce-success-response" style="display:none"></div>
   	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
       <div style="position: absolute; left: -5000px;"><input type="text" name="b_a3de5825e5d3f1ac1e10b36a6_ae21af52cb" tabindex="-1" value=""></div>
-      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-fill sign-up-btn signup-intro"></div>
+      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe2" class="button  btn btn-fill"></div>
       </div>
   </form>
   </div>
