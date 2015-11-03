@@ -15,7 +15,7 @@ footer scripts and additional details
     <script src="js/classie/classie.js"></script>
     <script src="js/jquery-waypoints/lib/jquery.waypoints.min.js"></script>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    
+
 
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -28,7 +28,14 @@ footer scripts and additional details
 
 </script>
 
-<?php 
+<script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
+<script type="text/javascript">twttr.conversion.trackPid('ntq1a', { tw_sale_amount: 0, tw_order_quantity: 0 });</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=ntq1a&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+<img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=ntq1a&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+</noscript>
+
+<?php
 
 //End Bottom Scripts
 
